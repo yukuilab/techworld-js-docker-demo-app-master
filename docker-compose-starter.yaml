@@ -1,7 +1,7 @@
 version: '3'
 services:
   my-app:
-    image: registry.cn-shanghai.aliyuncs.com/yukui-app/my-app:1.1
+    image: registry.cn-shanghai.aliyuncs.com/yukui-app/my-app:1.2
     restart: always
     depends_on:
       - mongodb
